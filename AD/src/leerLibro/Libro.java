@@ -10,7 +10,20 @@ public class Libro implements Serializable{
 	String editorial;
 	int paginas;
 	
+	
+	//Constructor 
+
+	public Libro(String nombre, String autor, String editorial, int paginas) {
+		super();
+		this.nombre = nombre;
+		this.autor = autor;
+		this.editorial = editorial;
+		this.paginas = paginas;
+	}
+	
+	
 	//getters y setters 
+	
 	
 	public String getNombre() {
 		return nombre;
