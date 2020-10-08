@@ -5,6 +5,7 @@ import java.io.Serializable;
 
 public class Libro implements Serializable{
 	
+	Float precio;
 	String nombre;
 	String autor;
 	String editorial;
@@ -13,8 +14,10 @@ public class Libro implements Serializable{
 	
 	//Constructor 
 
-	public Libro(String nombre, String autor, String editorial, int paginas) {
+	public Libro(String nombre, String autor, String editorial, int paginas, float precio) {
 		super();
+		
+		this.precio = precio;
 		this.nombre = nombre;
 		this.autor = autor;
 		this.editorial = editorial;
