@@ -8,7 +8,16 @@ public class Ejercicio_3 {
 		
 		String dato = JOptionPane.showInputDialog("Introduce la base del triangulo: ");
 		
-		a = Double.parseDouble(dato);
+		b = Double.parseDouble(dato);
+		
+		 dato = JOptionPane.showInputDialog("Introduce la altura del triangulo: ");
+		
+		h = Double.parseDouble(dato);
+		
+		a = b*h/2;
+		
+		JOptionPane.showMessageDialog(null, a);
+
 		
 	}
 

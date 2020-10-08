@@ -17,15 +17,6 @@ public class Multiplos {
 		int entrada = s.nextInt();
 
 		
-		switch (key) {
-		case value: {
-			
-			yield type;
-		}
-		default:
-			throw new IllegalArgumentException("Unexpected value: " + key);
-		}
-		
 		int i = 5;
 		
 		//for (; i <= 100; i +=5) {
@@ -39,6 +30,7 @@ public class Multiplos {
 			i +=5;
 			
 		} while (i<=100);
+		
 		
 	}
 }
