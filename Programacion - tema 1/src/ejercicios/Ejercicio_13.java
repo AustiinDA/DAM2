@@ -16,13 +16,13 @@ public class Ejercicio_13 {
 		
 		if (horas > 40) { 
 			int horasExtra = horas - 40;
-			pagado = (horas * 12) + (horasExtra * 16);
+			pagado = (40 * 12) + (horasExtra * 16);
 			
 		}else { 
 			 pagado = horas * 12;
 			
 		}
-			System.out.println(pagado);
+			System.out.println("Ha cobrado "+ pagado +" €");
 			
 		}
 	
